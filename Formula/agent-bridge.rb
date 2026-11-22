@@ -5,8 +5,8 @@ class AgentBridge < Formula
 
   desc "Lets Claude drive the Claude Code agents running in herdr on this Mac"
   homepage "https://github.com/placheckij/claude-remote-mcp"
-  url "https://files.pythonhosted.org/packages/f1/3f/f3e6b12af9f01b59ffc0d6754fea820e6ced731d2dfb2c2ac22c5f89580f/claude_remote_mcp_agent_bridge-0.2.4.tar.gz"
-  sha256 "567f8614a5289f3c539878dddef01117ab13f1d699b322d8084dcdfa71e0552d"
+  url "https://files.pythonhosted.org/packages/ec/ab/994640ad638144eb8bc6d214c8c281cfb8dce836eb30a6753549c362442c/claude_remote_mcp_agent_bridge-0.2.5.tar.gz"
+  sha256 "86b66329d92030e12df0edb930c11a5e48ba309f647d9feeecaa3f95016f06d7"
   license "MIT"
 
   depends_on "rust" => :build # pydantic-core and watchfiles
@@ -30,8 +30,8 @@ class AgentBridge < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/fd/11/b524cbd9bbdaca58608e4cf4053fd463417549e1959fa8d3aa18319f9555/certifi-2026.10.23.tar.gz"
-    sha256 "a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd"
+    url "https://files.pythonhosted.org/packages/51/33/4cd27639502f010084bcef7a2036391dd637439901341ce1a530f36f6e51/certifi-2026.11.20.tar.gz"
+    sha256 "af1cb240a8133f105aa52684a3a3258339d7f2fd0bd4e2812698ff5cf5588c4e"
   end
 
   resource "click" do
@@ -100,8 +100,8 @@ class AgentBridge < Formula
   end
 
   resource "pyyaml" do
-    url "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
-    sha256 "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f"
+    url "https://files.pythonhosted.org/packages/76/b8/c0b780928e2fb1c87e9e375818c6f121da2398b071012d1747be300b83f4/pyyaml-6.0.4.tar.gz"
+    sha256 "e24bf71af8a432d7808fabff134d38dfe16d3cbb41f2873bb4b1e42422de0a1a"
   end
 
   resource "starlette" do
