@@ -5,8 +5,8 @@ class AgentBridge < Formula
 
   desc "Lets Claude drive the Claude Code agents running in herdr on this Mac"
   homepage "https://github.com/placheckij/claude-remote-mcp"
-  url "https://files.pythonhosted.org/packages/ec/ab/994640ad638144eb8bc6d214c8c281cfb8dce836eb30a6753549c362442c/claude_remote_mcp_agent_bridge-0.2.5.tar.gz"
-  sha256 "86b66329d92030e12df0edb930c11a5e48ba309f647d9feeecaa3f95016f06d7"
+  url "https://files.pythonhosted.org/packages/0a/9a/d31b5a3f8e4f9de5c1c47b74d894d02f5184b71557517a2881b32f62453c/claude_remote_mcp_agent_bridge-0.3.0.tar.gz"
+  sha256 "758fd5449db8707759df9c8b009db8e751cffae35bd7468e70a75c9c4e722431"
   license "MIT"
 
   depends_on "rust" => :build # pydantic-core and watchfiles
